@@ -7,6 +7,13 @@ body {
   color: #5a5a5a;
 }
 
+.banner img {
+    width: 100%;
+    margin: 0 0 0 0;
+    margin-bottom: 60px;
+    opacity: 0.8;
+    position: relative;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -33,6 +40,31 @@ body {
   width: auto;
 }
 
+.feature1 img {
+    width: 100%;
+    margin: 0 0 0 0;
+    opacity: 0.8;
+    position: relative;
+}
+
+.logo {
+  display: block;
+  margin: 2em auto;
+  height: 70px;
+}
+
+.logo a {
+  display: block;
+  margin: 2em auto;
+  height: 70px;
+}
+
+.logo img {
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 50%;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
