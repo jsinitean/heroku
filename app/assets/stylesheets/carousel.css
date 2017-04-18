@@ -8,11 +8,16 @@ body {
 }
 
 .banner img {
-    width: 100%;
-    margin: 0 0 0 0;
-    margin-bottom: 60px;
-    opacity: 0.8;
-    position: relative;
+  width: 100%;
+  margin: 0 0 0 0;
+  margin-bottom: 60px;
+  opacity: 0.8;
+  position: relative;
+}
+
+.btn-new {
+  background-color: #79589F;
+  color: #fff;
 }
 
 /* CUSTOMIZE THE NAVBAR
@@ -167,6 +172,6 @@ body {
 
 @media (min-width: 992px) {
   .featurette-heading {
-    margin-top: 120px;
+    margin-top: 60px;
   }
 }

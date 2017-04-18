@@ -3,156 +3,212 @@
 
     <!-- Top Banner  ================================================== -->
 
-          <div class="banner">
-              <%= image_tag 'cover-heroku.png' %>
-          </div>  
+<div class="banner">
+    <%= image_tag 'cover-heroku.png' %>
+</div>  
 
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container marketing">
+<div class="container marketing"> 
 
       <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="img-circle">
-            <%= image_tag 'herokuconnecticon.png' %>
-          </div>
-          <h2>Heroku Connect</h2>
-          <p>Easily connect your application with Salesforce</p>
-          <p><a class="btn btn-default" href="https://www.heroku.com/connect" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <div class="img-circle">
-            <%= image_tag 'dyno.svg' %>
-          </div>
-          <h2>Heroku Dynos</h2>
-          <p>Run virtually any language at any scale</p>
-          <p><a class="btn btn-default" href="https://devcenter.heroku.com/articles/dynos" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <div class="img-circle">
-            <%= image_tag 'addons.png' %>
-          </div>
-          <h2>Heroku Add-ons</h2>
-          <p>Extend the power of your customer application through prebuilt configured add-ons in Heroku</p>
-          <p><a class="btn btn-default" href="https://elements.heroku.com/addons" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
+<div class="row">
+  <div class="col-lg-4">
+    <div class="img-circle">
+      <%= image_tag 'herokuconnecticon.png' %>
+    </div>
+    <h2>Heroku Connect</h2>
+    <p>Easily connect your application with Salesforce</p>
+    <p><a class="btn btn-new" href="https://www.heroku.com/connect" role="button" target="_blank">View details &raquo;</a></p>
+  </div><!-- /.col-lg-4 -->
+  <div class="col-lg-4">
+    <div class="img-circle">
+      <%= image_tag 'dyno.svg' %>
+    </div>
+    <h2>Heroku Dynos</h2>
+    <p>Run virtually any language at any scale</p>
+    <p><a class="btn btn-new" href="https://devcenter.heroku.com/articles/dynos" role="button" target="_blank">View details &raquo;</a></p>
+  </div><!-- /.col-lg-4 -->
+  <div class="col-lg-4">
+    <div class="img-circle">
+      <%= image_tag 'addons.png' %>
+    </div>
+    <h2>Heroku Add-ons</h2>
+    <p>Extend the power of your customer application through prebuilt configured add-ons in Heroku</p>
+    <p><a class="btn btn-new" href="https://elements.heroku.com/addons" role="button" target="_blank">View details &raquo;</a></p>
+  </div><!-- /.col-lg-4 -->
+</div><!-- /.row -->
 
 
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-6">
-          <h2 class="featurette-heading">Focus on Innovation. </br>
-          <span class="text-muted">Not Operations.</span></h2>
-          <p class="lead">Spending more time building new customer features. Stop spending time setting up infrastructure. Ops does not Differentiate. Deliver customer Value through Apps.</p>
-        </div>
-        <div class="col-md-6">
-          <div class="feature1">
-            <%= image_tag 'herokudevops2.png' %>
-          </div>
-        </div>
-      </div>
+<!-- START THE FEATURETTES -->
 
       <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-9 col-md-push-3">
-          <h2 class="featurette-heading">No More <span class="text-muted"><span class="glyphicon glyphicon-triangle-right"></span> DevOps</span></h2>
-          <p class="lead"><span class="glyphicon glyphicon-remove-sign"></span> Procuring virtual machines <span class="glyphicon glyphicon-remove-sign"></span>
-                          Installing and managing code runtime environment <span class="glyphicon glyphicon-remove-sign"></span>
-                          Installing web servers <span class="glyphicon glyphicon-remove-sign"></span>
-                          Procuring, managing and tuning databases <span class="glyphicon glyphicon-remove-sign"></span>
-                          Configuring and testing load balancing <span class="glyphicon glyphicon-remove-sign"></span>
-                          Patching the software stack (e.g. Heartbleed) <span class="glyphicon glyphicon-remove-sign"></span>
-                          Wearing pagers for the infrastructure stack
-                          </p>
-        </div>
-        <div class="col-md-3 col-md-pull-9">
-          <div class="feature1">
-            <%= image_tag 'infrastructure.png' %>
-          </div>
-        </div>
-      </div>
+<div class="row featurette">
+  <div class="col-md-6">
+    <h2 class="featurette-heading">Focus on Innovation. </br>
+    <span class="text-muted">Not Operations.</span></h2>
+    <p class="lead"><span class="glyphicon glyphicon-chevron-right"></span> Spending more time building new customer features. <br />
+                    <span class="glyphicon glyphicon-chevron-right"></span> Stop spending time setting up infrastructure.  <br />
+                    <span class="glyphicon glyphicon-chevron-right"></span> Ops does not differentiate.  <br />
+                    <span class="glyphicon glyphicon-chevron-right"></span> Deliver customer value through apps.</p>
+  </div>
+  <div class="col-md-6">
+    <div class="feature1">
+      <%= image_tag 'herokudevops2.png' %>
+    </div>
+  </div>
+</div>
 
       <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Supported Languages.</br> <span class="text-muted">With Heroku Support.</span></h2>
-          <p class="lead">Ruby. Java. PHP. Clojure. Node.js. Scala and Play. Python. Go.</p>
-        </div>
-        <div class="col-md-5">
-          <div class="feature1">
-            <%= image_tag 'heroku-languages.jpg' %>
-          </div>
-        </div>
-      </div>
+<div class="row featurette">
+  <div class="col-md-9 col-md-push-4">
+    <h2 class="featurette-heading">No More <span class="text-muted"><span class="glyphicon glyphicon-remove-sign"></span> DevOps</span></h2>
+      <p class="lead">
+          <span class="glyphicon glyphicon-remove-sign"></span> Procuring virtual machines <br /> 
+          <span class="glyphicon glyphicon-remove-sign"></span> Installing and managing code runtime environment  <br /> 
+          <span class="glyphicon glyphicon-remove-sign"></span> Installing web servers  <br /> 
+          <span class="glyphicon glyphicon-remove-sign"></span> Procuring, managing and tuning databases  <br /> 
+          <span class="glyphicon glyphicon-remove-sign"></span> Configuring and testing load balancing <br />  
+          <span class="glyphicon glyphicon-remove-sign"></span> Patching the software stack (e.g. Heartbleed)  <br /> 
+          <span class="glyphicon glyphicon-remove-sign"></span> Wearing pagers for the infrastructure stack <br /> 
+      </p>
+  </div>
+  <div class="col-md-3 col-md-pull-9">
+    <div class="feature1">
+      <%= image_tag 'infrastructure.png' %>
+    </div>
+  </div>
+</div>
 
       <hr class="featurette-divider">
 
-  <div class="companywrapper customer-list text-center separated">
+<div class="row featurette">
+  <div class="col-md-7">
+    <h2 class="featurette-heading">Supported Languages.</br> <span class="text-muted">With Heroku Support.</span></h2>
+    <p class="lead">Ruby. Java. PHP. Clojure. Node.js. Scala and Play. Python. Go.</p>
+  </div>
+  <div class="col-md-5">
+    <div class="feature1">
+      <%= image_tag 'heroku-languages.jpg' %>
+    </div>
+  </div>
+</div>
+
+      <hr class="featurette-divider">
+
+<div class="row">
+<div class="companywrapper customer-list text-center separated">
   <h2 class="featurette-heading">Who builds apps on Heroku?</h2>
   <div class="four-up space-top">
     <div class="col-md-3">
       <h3>Enterprise</h3>
-      <a class="logo" href="https://www.heroku.com/customers/macys">
+      <a class="logo" href="https://www.heroku.com/customers/macys" target="_blank">
         <img class="" alt="Macys" height="38px" width="145px" data-hires="https://www-assets0.herokucdn.com/assets/platform/customers/macys_2x-2b5db9ec5fb625c596075d7411aec144644cf8bbb880c99ab666e05f066edcbd.png" src="https://www-assets3.herokucdn.com/assets/platform/customers/macys-82e8f0b0ef8d5c0a49e2f66ac1b2e24cca55e35c7d652e98ebcc2611d46c6a1c.png">
       </a>
-      <a class="logo" href="https://www.heroku.com/customers/aligntech">
+      <a class="logo" href="https://www.heroku.com/customers/aligntech" target="_blank">
         <img class="" alt="Aligntech" height="35px" width="145px" data-hires="https://www-assets3.herokucdn.com/assets/platform/customers/aligntech_2x-625d246c92c3be8f44a37fb90f1ba9240c8755c93e469175f59412d8e4301d6f.png" src="https://www-assets3.herokucdn.com/assets/platform/customers/aligntech-ee269a0a0199784ff655aa7553b9a7e8adb429ec2fbae6335ab1a216d452fef4.png">
       </a>
-      <a class="logo" href="https://www.heroku.com/customers/westfieldlabs">
+      <a class="logo" href="https://www.heroku.com/customers/westfieldlabs" target="_blank">
         <img class="" alt="Westfield" height="48px" width="149px" data-hires="https://www-assets2.herokucdn.com/assets/platform/customers/westfield_2x-dc47df6422b437ba1e696ad39834e1c92c55825d418d32d3bc5cdc1052ef1ebc.png" src="https://www-assets0.herokucdn.com/assets/platform/customers/westfield-48cbf9712e226fea57fa9e4a7ebb4fa2d4297c9267c9a4e0009bf64e79c0c43f.png">
       </a>
     </div>
     <div class="col-md-3">
       <h3>Startup</h3>
-      <a class="logo" href="https://www.heroku.com/customers/producthunt">
+      <a class="logo" href="https://www.heroku.com/customers/producthunt" target="_blank">
         <img class="" alt="Product Hunt" height="41px" width="171px" data-hires="https://www-assets3.herokucdn.com/assets/platform/customers/producthunt_2x-6846a30415bc4de117a8dfe53c1247f8dc9a8be1542494be167568cfef141eee.png" src="https://www-assets0.herokucdn.com/assets/platform/customers/producthunt-0fff5335c005921336b93a3b8611b0d965c3cb9586dacce0c8a2cccb3d744518.png">
       </a>
-      <a class="logo" href="https://www.heroku.com/customers/dufl">
+      <a class="logo" href="https://www.heroku.com/customers/dufl" target="_blank">
         <img class="" alt="DUFL" height="40px" width="135px" data-hires="https://www-assets2.herokucdn.com/assets/platform/customers/dufl_2x-95654b1ef4b6cb9137a2b37c6fc1d7c96a0244a1fce7bd776f2f38aec4e71c52.png" src="https://www-assets1.herokucdn.com/assets/platform/customers/dufl-d33c5e52791d7e8a051168ed43efd60d23a89111f570f3916adbbc1de6829d20.png">
       </a>
-      <a class="logo" href="https://www.heroku.com/customers/scootnetworks">
+      <a class="logo" href="https://www.heroku.com/customers/scootnetworks" target="_blank">
         <img class="" alt="Scoot" height="84px" width="79px" data-hires="https://www-assets0.herokucdn.com/assets/platform/customers/scoot_2x-3c5545d585b64adf419723b8d9b67fc97d73abf4bc43c59bf9589d0e9d70238c.png" src="https://www-assets2.herokucdn.com/assets/platform/customers/scoot-a50dc5edd1f093ba7f95a951cdb35c6bacab4fda2e612ae5376eb2535c9d2b1e.png">
       </a>
     </div>
     <div class="col-md-3">
       <h3>Non-profit</h3>
-      <a class="logo" href="https://www.heroku.com/customers/educationafrica">
+      <a class="logo" href="https://www.heroku.com/customers/educationafrica" target="_blank">
         <img class="" alt="Education Africa" height="71px" width="70px" data-hires="https://www-assets3.herokucdn.com/assets/platform/customers/education_2x-153c18aa539d0c535b706285233b20a12670f828529834c5da08b512b721d7a6.png" src="https://www-assets1.herokucdn.com/assets/platform/customers/education-53736b7dff1a702beb49188b6514b7d9ef18a9d7b553f55cb8cf258197fc9b24.png">
       </a>
-      <a class="logo" href="https://www.heroku.com/customers/givegab">
+      <a class="logo" href="https://www.heroku.com/customers/givegab" target="_blank">
         <img class="" alt="GiveGab" height="37px" width="148px" data-hires="https://www-assets2.herokucdn.com/assets/platform/customers/givegab_2x-10626bd9359986a883f0040b7017fc772f2bba3a20ebf77372d2a3d35c5d5907.png" src="https://www-assets0.herokucdn.com/assets/platform/customers/givegab-481ba4608ce3bf8ba4df5da46f0afc244bdba2403d32339aad96af813f1f350c.png">
       </a>
-      <a class="logo" href="https://www.heroku.com/customers/nederlandcares">
+      <a class="logo" href="https://www.heroku.com/customers/nederlandcares" target="_blank">
         <img class="" alt="Nederland Cares" height="34px" width="191px" data-hires="https://www-assets2.herokucdn.com/assets/platform/customers/nederland_2x-ba427ba0435e6d6180d26624186fe48774e3473ee2f07a8a78a483ebf99560a0.png" src="https://www-assets0.herokucdn.com/assets/platform/customers/nederland-83b51b218302016e370fff27e1c4763c82f5eeb55910ae0d682678940c8264ba.png">
       </a>
     </div>
     <div class="col-md-3">
       <h3>and More</h3>
-      <a class="logo" href="https://www.heroku.com/customers/hy-vee">
+      <a class="logo" href="https://www.heroku.com/customers/hy-vee" target="_blank">
         <img class="" alt="HyVee" height="43px" width="126" data-hires="https://www-assets0.herokucdn.com/assets/platform/customers/hyvee_2x-43fceb257e067ab9822296306c04d6e2b4b63c32afca4c8a4260e5bdf9b625bf.png" src="https://www-assets1.herokucdn.com/assets/platform/customers/hyvee-c71e4a42af25744f89b7e17fafdf59095968dd2b00f4c34c5154a60df76814b6.png">
       </a>
-      <a class="logo" href="https://www.heroku.com/customers/neb">
+      <a class="logo" href="https://www.heroku.com/customers/neb" target="_blank">
         <img class="" alt="New England BioLabs" height="54px" width="140px" data-hires="https://www-assets3.herokucdn.com/assets/platform/customers/neb_2x-b9beaeb5af63d29a5794310c7db22479227974bd6cf188a1725d743f78008941.png" src="https://www-assets1.herokucdn.com/assets/platform/customers/neb-3e79bc879dc8d245ddcbe01be6574167cf7ce1bec33ceeb5611199d80eb118ca.png">
       </a>
-      <a class="logo" href="https://www.heroku.com/customers/lutron">
+      <a class="logo" href="https://www.heroku.com/customers/lutron" target="_blank">
         <img class="" alt="Lutron" height="24px" width="162px" data-hires="https://www-assets0.herokucdn.com/assets/platform/customers/lutron_2x-559dfa4147e3c01d8fc6c4aa75102c78013b039cc49ba2118a1e35c4694ddd8e.png" src="https://www-assets2.herokucdn.com/assets/platform/customers/lutron-2b8178bbde35756e2ac782bab690ff30d0cce5bc78ce88a1279956292c6702fd.png">
       </a>
     </div>
   </div>
-  <p><a href="https://www.heroku.com/customers">See all customer stories</a></p>
+</div>
+</div>
+
+<div class="row">
+</div>
+
+<div class="row">
+  <div class="col-md-4">
+  </div>
+  <div class="col-md-4">
+    <center>
+      <p><a href="https://www.heroku.com/customers" target="_blank">See all customer stories</a></p>
+    </center>
+  </div>
+  <div class="col-md-4">
+  </div>
 </div>
 
       <hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-1">
+
+  </div>
+  <div class="col-md-10">
+    <div class="feature1">
+      <center>
+        <iframe src="http://www.youtube.com/embed/719XOY55-y8"
+         width="80%" height="500" frameborder="0" allowfullscreen>
+        </iframe>
+      </center>  
+    </div>
+  </div>
+  <div class="col-md-8">
+  </div>
+</div>
+
+<div class="row featurette">
+  <div class="col-md-4">
+
+  </div>
+  <div class="col-md-4">
+    <center>
+      <p><a class="btn btn-new" href="https://tenkara.herokuapp.com/" role="button" target="_blank">Which of my accounts are using Heroku &raquo;</a></p>
+    </center>  
+  </div>
+  <div class="col-md-4">
+
+  </div>
+</div>  
+
+      <hr class="featurette-divider">
+
+
+
 
       <!-- /END THE FEATURETTES -->
 
